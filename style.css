@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    padding: 50px;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-one__conduct{
+    background-color: parent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 5px;
+}
+.section-one__conduct:hover{
+    background-color: purple;
+    color: black;
+}
+.section-one__name{
+    font-size: 60px;
+}
+.section-one__role{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+}
+.section-two__desc,.section-three__list,.section-four__list,.section-five__desc{
+    margin-top: 10px;
+}
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-five__title a{
+    color: skyblue;
+}
+.section-three li,.section-four li{
+    list-style: none;
+}
+.section-three{
+    background-color: #6462FD;
+    padding: 20px;
+    display:inline-block;
+    border-radius: 10px;
+    height: 200px;
+    vertical-align: top;
+}
+.section-four{
+    background-color:#FE7517 ;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    height: 200px;
+    vertical-align: top;
+}
+.conduct-form{
+    margin-top: 20px;
+}
+.conduct-form__input,.conduct-form__textarea,.conduct-form__submit{
+    margin-top: 10px;
+}
+.conduct-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.conduct-form__textarea{
+    padding: 10px;
+    border: none;
+    border: 1px solid black;
+}
+.conduct-form__submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: black;
+    color: purple;
+}
+.conduct-form__submit:hover{
+    background-color: purple;
+    color: black;
+}
