@@ -17,7 +17,7 @@ This is a **simple portfolio website** built using **HTML** and **CSS**. The web
 ## How to Run Locally:
 1. Clone the repository:
      ```bash
-  
+     git clone https://github.com/Adham-0110/portfolio-simple-website.git
    ```
  
 2. Navigate to the project folder:
